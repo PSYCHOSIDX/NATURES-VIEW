@@ -1,7 +1,7 @@
 # NATURES-VIEW
 
 ![Project_Snap](https://user-images.githubusercontent.com/63893110/131526878-3977f2b5-4154-47d0-a4d6-c20b88375eaa.png)
-Website : https://github.com/PSYCHOSIDX/NATURES-VIEW/settings/pages
+Website : https://github.com/PSYCHOSIDX/NATURES-VIEW/
 
 It is a Clean Web-Design that I have made using pure HTML and CSS.
 It's fully responsive desgin and is supported on most of the browsers.

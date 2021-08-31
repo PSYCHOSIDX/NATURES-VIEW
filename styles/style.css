@@ -1,0 +1,279 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'poppins', sans-serif;
+}
+
+.container {
+     width:100%;
+     height: 100vh;
+     padding-left: 6%;
+     padding-right: 6%;
+     box-sizing: border-box;
+     overflow: hidden;
+    
+}
+
+.navbar{
+
+     width: 100%;
+     display: flex;
+     align-items: center;
+}
+
+.logo{
+width :140px;
+cursor: pointer;
+
+
+}
+
+.menu-icon{
+     width: 70px;
+     cursor: pointer;
+     display: none;
+}
+
+nav{
+     flex:1;
+     text-align: right;
+}
+
+nav ul li {
+     list-style: none;
+     display: inline-block;
+     margin-right: 30px;
+}
+
+nav ul li a{
+    font-family: 'Montserrat',sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+nav ul li a:hover{
+     color: rgb(25, 230, 127);
+     
+ }
+
+
+
+
+ .row{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+     
+ }
+
+
+
+
+ .col-1{
+      flex-basis: 50%;
+      position: relative;
+      margin-left: 60px;
+      margin-top: 0px;
+ }
+
+ .col-1 h2{
+      margin-top: 10px;
+      font-size: 36px;
+ }
+ .col-1 h3{
+     font-size: 29px;
+     color:#1D976C;
+     font-weight: 100;
+     margin: 20 0 10px;
+     font-family: 'Montserrat', sans-serif;
+}
+.font-color{
+     font-family: 'Montserrat', sans-serif;
+     color: rgb(0, 0, 0);
+     font-weight: 100;
+}
+
+.col-1 p{
+     margin-top: 10px;
+     font-size: 16px;
+     color: rgb(68, 68, 68);
+     font-weight: 100;
+     font-family: 'Montserrat', sans-serif;
+}
+
+.col-1 h4{
+     font-size: 18px;
+     margin-top: 40px;
+     margin-bottom: 28px;
+     color: #1D976C;
+     font-family: 'Montserrat', sans-serif;
+}
+
+
+
+button {
+ background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%);
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 6px;
+   display: block;
+   width:250px;
+   border: 0;
+   padding: 12px 10px;
+   outline: none;
+   font-size: 20px;
+ }
+
+ button:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .col-1::after{
+      content: '';
+      width:10px;
+      height: 55%;
+      background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%);
+      position: absolute;
+      left: -65px;
+      top: 8px;
+      margin-right: -27px;
+ }
+
+ .col-2{
+      position: relative;
+      flex-basis: 60%;
+      display: flex;
+      align-items: center;
+
+ }
+ .earth{
+      width:90%;
+      margin-top: -50px;
+     
+ }
+
+ .col-2 .color-box{
+      position: absolute;
+      right: 0;
+      top:0;
+      background: linear-gradient(to right, #3af016 0%, #1fc8e6  51%, #48ecb3  100%);
+      border-radius: 20px 0 0 20px;
+      height: 88%;
+      width: 80%;
+      z-index: -1;
+      transform: translateX(150px);
+ }
+
+
+
+.add-btn{
+     text-align: center;
+     color: white;
+     cursor: pointer;
+     width: 130px;
+     font-size: 18px;
+     margin-top: -70px;
+     margin-left: -7px;
+   
+}
+.col-2 p {
+     font-family: 'Montserrat',sans-serif;
+}
+
+.social-links img{
+     height: 26px;
+     margin:20px;
+     margin-top: -20px;
+     cursor: pointer;
+     
+}
+
+.social-links{
+     text-align:center;
+     margin-top: -25px;
+     cursor: pointer;
+}
+
+.info{
+     text-align: center;
+     font-family: 'Montserrat',sans-serif;
+     font-size: 12px;
+     margin: 4px;
+}
+
+@media only screen and ( max-width:700px){
+   .logo{width: 100px;}
+   .menu-icon{width: 80px;}
+     nav ul{
+          width:100%;
+          background-image: linear-gradient(to right, #3af016 0%, #1fc8e6  51%, #48ecb3  100%);
+          position: absolute;
+          top: 85px;
+          right :0;
+          z-index: 2;    
+      }
+
+button {
+margin-left:-10px ;
+}
+nav ul li{
+     display: block;
+     margin-top:10px ;
+     margin-bottom:10px ;
+}
+nav ul li a{
+     color: white;
+}
+.menu-icon{
+     display: block;
+}
+
+#menuList{
+     overflow: hidden;
+     transition: 0.5s;
+}
+
+.container{
+     overflow: scroll;
+}
+.row {
+     flex-direction: column-reverse;
+     margin: 50px 0;
+}
+.col-2{
+     margin-top: 20px;
+     flex-basis: 100%;
+     margin-bottom: 30px;
+}
+.col-2 .color-box{
+   
+     transform: translateX(100px);
+     height: 50%;
+     margin-top: 30px;
+
+}
+.add-btn{
+     font-size: 10px;
+     margin-right: 20px;
+     transform: translateX(-35px);
+}
+
+.col-1{
+     margin-top: -15px;
+     padding-left: -9px;
+}
+
+.col-1::after{ 
+    text-align: center;
+    
+    
+}
+}

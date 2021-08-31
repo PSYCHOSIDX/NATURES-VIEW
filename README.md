@@ -5,7 +5,7 @@ Website : https://psychosidx.github.io/NATURES-VIEW/
 
 It is a Clean Web-Design that I have made using pure HTML and CSS.
 It's fully responsive desgin and is supported on most of the browsers.
-The website is based on the concept of NGO's which plant's trees for a better planet tomorrow for a small donation amount per month .
+The website is based on the concept of NGO's which plant trees for a better planet at a small donation amount per month .
 
 Hope You Enjoyed Visting .
 

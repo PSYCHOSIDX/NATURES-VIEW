@@ -223,9 +223,9 @@ button {
    .menu-icon{width: 80px;}
      nav ul{
           width:100%;
-          background-image: linear-gradient(to right, #3af016 0%, #1fc8e6  51%, #48ecb3  100%);
+          background-image: linear-gradient(to left, #3af016 0%, #1fc8e6  51%, #48ecb3  100%);
           position: absolute;
-          top: 85px;
+          top: 91px;
           right :0;
           z-index: 2;    
       }
@@ -246,6 +246,7 @@ nav ul li{
 }
 nav ul li a{
      color: white;
+     font-size:10px;
 }
 .menu-icon{
      display: block;

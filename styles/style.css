@@ -74,7 +74,7 @@ nav ul li a:hover{
  .col-1{
       flex-basis: 50%;
       position: relative;
-      margin-left: 60px;
+      margin-left: 40px;
       margin-top: 0px;
  }
 
@@ -199,7 +199,6 @@ button {
 
 .social-links{
      text-align:center;
-     margin-top: -25px;
      cursor: pointer;
 }
 

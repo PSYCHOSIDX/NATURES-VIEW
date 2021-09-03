@@ -271,10 +271,9 @@ nav ul li a{
      margin-bottom: 30px;
 }
 .col-2 .color-box{
-   
-     transform: translateX(100px);
-
+     transform: translateX(90px);
      margin-top:-30px;
+     height: 101%;
 
 }
 .add-btn{

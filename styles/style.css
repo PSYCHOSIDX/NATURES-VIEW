@@ -156,7 +156,7 @@ button {
 
  }
  .earth{
-      width:90%;
+      width:70%;
       margin-top: -50px;
       margin:-10px;
      
@@ -192,7 +192,6 @@ button {
 
 .social-links img{
      height: 23px;
-     margin:22px;
      cursor: pointer;
      transition: 0.5s;
      
@@ -234,6 +233,10 @@ margin-left:-10px ;
      width :130px;
      margin:8px;
 }
+.earth{
+     width:100%;
+     
+     }
 nav ul li{
      display: block;
      margin-top:10px ;

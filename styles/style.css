@@ -140,7 +140,7 @@ button {
  .col-1::after{
       content: '';
       width:10px;
-      height: 55%;
+      height: 50%;
       background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%);
       position: absolute;
       left: -65px;
@@ -150,7 +150,7 @@ button {
 
  .col-2{
       position: relative;
-      flex-basis: 60%;
+      flex-basis: 20%;
       display: flex;
       align-items: center;
 
@@ -207,7 +207,9 @@ button {
      text-align: center;
      font-family: 'Montserrat',sans-serif;
      font-size: 12px;
-     margin: 4px;
+     margin: 10px;
+     padding:10px;
+     margin-top:10px;
 }
 
 @media only screen and ( max-width:700px){

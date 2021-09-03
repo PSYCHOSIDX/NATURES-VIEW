@@ -194,12 +194,12 @@ button {
      height: 23px;
      margin:22px;
      cursor: pointer;
+     transition: 0.5s;
      
 }
 
 .social-links img:hover{
     color:green;
-  
      
 }
 

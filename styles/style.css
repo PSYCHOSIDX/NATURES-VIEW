@@ -172,7 +172,6 @@ button {
       width: 90%;
       z-index: -1;
       transform: translateX(160px);
-      background: linear-gradient(-45deg,#2AAA8A,#7CFC00, #2E8B57, #008080);
       animation: gradient 14s ease infinite;
  }
 @keyframes gradient {

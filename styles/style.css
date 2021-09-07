@@ -172,7 +172,7 @@ button {
       width: 90%;
       z-index: -1;
       transform: translateX(160px);
-      animation: gradient 14s ease infinite;
+      animation: gradient 2s ease infinite;
  }
 @keyframes gradient {
 	0% {
